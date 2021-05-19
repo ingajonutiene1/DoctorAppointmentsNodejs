@@ -1,0 +1,19 @@
+{
+  "name": "Appointments",
+  "description": "Appointments API",
+  "version": "0.0.1",
+  "private": true,
+	"scripts": {
+		"start": "node server"
+	},
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "json": "*",
+    "moment": "^2.24.0",
+    "mongoose": "*",
+    "morgan": "*",
+    "rotating-file-stream": "*",
+    "winston": "*"
+  }
+}
